@@ -9,10 +9,14 @@ body {
     margin: 0;
 }
 
-section {
-    display: flex;
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+section {
+    display: flex;
+    
 }
 
 .articale-part {
@@ -44,4 +48,20 @@ h1 {
 
 .orange-color {
     color: orange;
+}
+.box{
+    margin: 5px;
+    box-shadow: 0px 2px 16px 3px #888888;
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+.box-two{
+    margin: 5px;
+    box-shadow: 0px 2px 16px 3px #888888;
+    border-radius: 10px;
+    border-left: 5px solid tomato;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
 }
